@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/bg5.webp);
-
+body {
+  background: 
+    linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), 
+    url("/bg3.webp"); /* notice: just /bg3.webp */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
